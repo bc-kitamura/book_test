@@ -1,0 +1,11 @@
+-- Lend_Book
+
+CREATE TABLE LEND_BOOK (
+SERIAL_ID integer PRIMARY KEY,
+USER_ID integer NOT NULL,
+BOOK_ID integer NOT NULL,
+LEND_DATE date NOT NULL,
+END_DATE date NOT NULL
+);
+
+
